@@ -1,0 +1,21 @@
+.typing{
+    font-size: 26px;
+    width: 100vh;
+    height: 100%;   
+    animation: animacion 8s steps(60), transparent .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5297C4;
+  }
+  
+  @keyframes animacion {
+    from {
+      width: 10px
+    }
+  }
+      
+  @keyframes transparent {
+    50% {
+      border-color: transparent
+    }
+}
